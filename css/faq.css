@@ -1,0 +1,49 @@
+/* Root Variables */
+html {
+  --first-color: black;
+  --second-color: #777;
+  --third-color: #ec282e;
+  --forth-color: #92deeb;
+  --fifth-color: #2855f8;
+  --sixth-color: #f9b21a;
+  --contrast-color: white;
+  --base-font-size: 16px;
+  font-size: var(--base-font-size);
+}
+
+/* Section4 */
+
+/* チェックボックスがチェックされたときに、+.fa-circle-plusの回転を変更 */
+#checkbox-arrow:checked ~ #checkbox-label-arrow #arrow {
+  transform: rotate(180deg);
+}
+
+.answer,
+input[type="checkbox"] {
+  display: none;
+}
+
+#checkbox-minus,
+#checkbox-label-minus {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+}
+
+#checkbox-plus:checked + #checkbox-label-plus #plus {
+  display: none;
+}
+
+#checkbox-plus:checked ~ #checkbox-label-minus #minus {
+  display: block;
+}
+
+#checkbox-minus:checked ~ #checkbox-label-plus #plus {
+  display: block;
+}
+
+#checkbox-minus:checked + #checkbox-label-minus #minus {
+  display: none;
+}
