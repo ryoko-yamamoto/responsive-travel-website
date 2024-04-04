@@ -1,0 +1,179 @@
+/* Root Variables */
+html {
+  --first-color: black;
+  --second-color: #777;
+  --third-color: #ec282e;
+  --forth-color: #92deeb;
+  --fifth-color: #2855f8;
+  --sixth-color: #f9b21a;
+  --gradient-color: linear-gradient(#face2d, #fe6a0e);
+  --contrast-color: white;
+  --base-font-size: 16px;
+  font-size: var(--base-font-size);
+}
+
+/* Section-5 */
+
+.section-5 {
+}
+.contact-area {
+  display: flex;
+  background-color: var(--first-color);
+  min-height: 600px;
+}
+.contact-form {
+  display: grid;
+  grid-template-areas:
+    "text text"
+    "name email" "phone country" "company dropdown" "message message"
+    "submit submit";
+  width: 45%;
+  margin: 1rem;
+  gap: 1rem;
+}
+
+.contact-text {
+  grid-area: text;
+  color: var(--forth-color);
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-align: center;
+}
+#name-field {
+  grid-area: name;
+}
+
+#email-field {
+  grid-area: email;
+}
+
+#phone-field {
+  grid-area: phone;
+}
+
+#country-field {
+  grid-area: country;
+}
+
+#company-field {
+  grid-area: company;
+}
+
+#dropdown-field {
+  grid-area: dropdown;
+}
+
+#message-field {
+  grid-area: message;
+  justify-self: center;
+  display: block;
+  width: 100%;
+}
+#message-input {
+  font-size: 1.2rem;
+  border-radius: 0.25rem;
+  display: block;
+  width: 100%;
+}
+
+#reason-select {
+  background-color: var(--forth-color);
+  border: none;
+  font-size: 1.2rem;
+  display: block;
+  width: 100%;
+  border-radius: 0.25rem;
+}
+
+#submit {
+  grid-area: submit;
+  background-color: var(--forth-color);
+  color: var(--contrast-color);
+  font-size: 1.2rem;
+  border: none;
+  width: 20%;
+  justify-self: center;
+  border-radius: 0.25rem;
+}
+
+label {
+  color: var(--contrast-color);
+  font-size: 1.2rem;
+  display: block;
+  width: 100%;
+}
+
+input {
+  display: block;
+  width: 100%;
+  border-radius: 0.25rem;
+  font-size: 1.2rem;
+}
+
+.contact-message {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  margin-left: 3rem;
+}
+
+.contact-big {
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 0.5rem 0.5rem 0.5rem rgba(168, 168, 168, 0.715);
+  color: var(--contrast-color);
+}
+
+.contact-small {
+  font-size: 1.5rem;
+  color: var(--contrast-color);
+}
+
+.fa-star {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.star {
+  text-align: center;
+}
+
+/* Styles for Tablets*/
+@media screen and (max-width: 767px) {
+  .contact-area {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .contact-form {
+    width: 90%;
+  }
+
+  .contact-message {
+    width: 90%;
+  }
+}
+
+/* Styles for Smartphone*/
+@media screen and (max-width: 575px) {
+  .contact-form {
+    display: grid;
+    grid-template-areas:
+      "text"
+      "name" "email" "phone" "country" "company" "dropdown" "message"
+      "submit";
+    width: 100%;
+  }
+
+  .contact-form {
+    width: 90%;
+  }
+
+  .contact-message {
+    width: 90%;
+  }
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
+    <link
+      href="https://use.fontawesome.com/releases/v6.5.1/css/all.css"
+      rel="stylesheet"
+    />
+    <title>My Journey</title>
+  </head>
+
+  <body>
+    <main>
+      <section class="section-5">
+        <h2>Contact</h2>
+        <div class="contact-area">
+          <div class="contact-form">
+            <p class="contact-text">＜CONTACT FORM＞</p>
+            <div id="name-field">
+              <label for="name-input">Name</label>
+              <input type="text" id="name-input" name="name" required />
+            </div>
+
+            <div id="email-field">
+              <label for="email-input">Email</label>
+              <input type="email" id="email-input" name="email" required />
+            </div>
+
+            <div id="phone-field">
+              <label for="phone-input">Phone</label>
+              <input type="phone" id="phone-input" name="phone" required />
+            </div>
+
+            <div id="country-field">
+              <label for="country-input">Country</label>
+              <input type="country" id="country-input" name="country" />
+            </div>
+
+            <div id="company-field">
+              <label for="company-input">Company name</label>
+              <input type="company" id="company-input" name="company" />
+            </div>
+
+            <div id="dropdown-field">
+              <label for="reason-select">Reason</label>
+              <select name="reason" id="reason-select">
+                <option value="reason" selected>
+                  --Please choose a reason--
+                </option>
+                <option value="inquiry">I have a question</option>
+                <option value="problem">I have a problem</option>
+                <option value="reservation">I confirm a reservation</option>
+                <option value="password">I forgot a password</option>
+                <option value="others">Others</option>
+              </select>
+            </div>
+
+            <div id="message-field">
+              <label for="message-input">Message</label>
+              <textarea
+                name="message"
+                id="message-input"
+                cols="30"
+                rows="4"
+              ></textarea>
+            </div>
+
+            <button type="submit" id="submit">Submit</button>
+          </div>
+
+          <div class="contact-message">
+            <p class="contact-big">Questions?</p>
+            <p class="contact-big">Let's connect with us!</p>
+            <p class="star">
+              <i class="fa-solid fa-star fa-2x fa-spin"></i
+              ><i class="fa-regular fa-star fa-2x fa-spin"></i>
+              <i class="fa-solid fa-star fa-2x fa-spin"></i>
+            </p>
+            <p class="contact-small">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio omnis temporibus voluptas quasi repudiandae sed ad
+              explicabo rerum sint, unde suscipit officiis quibusdam odio
+              consectetur eos praesentium architecto, reprehenderit modi!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
