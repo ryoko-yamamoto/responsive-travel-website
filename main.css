@@ -338,14 +338,14 @@ footer {
   h1.logo-title {
     font-size: 1.25rem;
   }
-  #nav-svg {
+  #earth {
     display: block;
   }
   #nav-menu {
     position: fixed;
     top: 80px;
-    left: -100vw;
-    width: 100vw;
+    left: -100dvw;
+    width: 100dvw;
     height: 100dvh;
     background-color: var(--forth-color);
     text-align: center;
@@ -389,19 +389,22 @@ footer {
 
   .footer-up {
     display: grid;
-    grid-template-rows: auto 1fr 1fr;
+    grid-template-rows: auto auto auto;
     row-gap: 1rem;
   }
 
   .footer-company {
     grid-row: 1 / 2;
-    width: 90%;
+    grid-column: 1 / 3;
   }
   .footer-container {
     grid-row: 2 / 3;
+    grid-column: 1 / 3;
+    justify-self: center;
   }
   .map-container {
     grid-row: 3 / 4;
+    grid-column: 1 / 3;
   }
 
   .footer-down {

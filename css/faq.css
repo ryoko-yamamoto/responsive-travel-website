@@ -13,37 +13,145 @@ html {
 
 /* Section4 */
 
-/* チェックボックスがチェックされたときに、+.fa-circle-plusの回転を変更 */
-#checkbox-arrow:checked ~ #checkbox-label-arrow #arrow {
-  transform: rotate(180deg);
+#FAQ-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
-.answer,
-input[type="checkbox"] {
-  display: none;
+h3 {
+  text-align: center;
+  font-size: 2rem;
 }
 
-#checkbox-minus,
-#checkbox-label-minus {
-  display: none;
+#FAQ {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 label {
   cursor: pointer;
 }
 
-#checkbox-plus:checked + #checkbox-label-plus #plus {
-  display: none;
+.question {
+  font-size: 1.5rem;
 }
 
-#checkbox-plus:checked ~ #checkbox-label-minus #minus {
+#FAQ-1,
+#FAQ-2,
+#FAQ-3,
+#FAQ-4,
+#FAQ-5,
+#FAQ-6 {
+  display: grid;
+  grid-template-columns: 1fr 3rem;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-items: center;
+  border: solid 0.1rem var(--forth-color);
+  border-radius: 1rem;
+  padding: 0.8rem;
+}
+#arrow-1,
+#arrow-2,
+#arrow-3,
+#arrow-4,
+#arrow-5,
+#arrow-6 {
+  color: var(--fifth-color);
+}
+
+#answer-1,
+#checkbox-arrow-1,
+#answer-2,
+#checkbox-arrow-2,
+#answer-3,
+#checkbox-arrow-3,
+#answer-4,
+#checkbox-arrow-4,
+#answer-5,
+#checkbox-arrow-5,
+#answer-6,
+#checkbox-arrow-6 {
+  display: none;
+  font-size: 1.3rem;
+  color: var(--second-color);
+}
+
+#FAQ-1:has(#checkbox-arrow-1:checked) #arrow-1,
+#FAQ-2:has(#checkbox-arrow-2:checked) #arrow-2,
+#FAQ-3:has(#checkbox-arrow-3:checked) #arrow-3,
+#FAQ-4:has(#checkbox-arrow-4:checked) #arrow-4,
+#FAQ-5:has(#checkbox-arrow-5:checked) #arrow-5,
+#FAQ-6:has(#checkbox-arrow-6:checked) #arrow-6 {
+  transform: rotate(180deg);
+}
+
+#FAQ-1:has(#checkbox-arrow-1:checked) #FAQ-1,
+#FAQ-2:has(#checkbox-arrow-2:checked) #FAQ-2,
+#FAQ-3:has(#checkbox-arrow-3:checked) #FAQ-3,
+#FAQ-4:has(#checkbox-arrow-4:checked) #FAQ-4,
+#FAQ-5:has(#checkbox-arrow-5:checked) #FAQ-5,
+#FAQ-6:has(#checkbox-arrow-6:checked) #FAQ-6 {
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+#FAQ-1:has(#checkbox-arrow-1:checked) #answer-1,
+#FAQ-2:has(#checkbox-arrow-2:checked) #answer-2,
+#FAQ-3:has(#checkbox-arrow-3:checked) #answer-3,
+#FAQ-4:has(#checkbox-arrow-4:checked) #answer-4,
+#FAQ-5:has(#checkbox-arrow-5:checked) #answer-5,
+#FAQ-6:has(#checkbox-arrow-6:checked) #answer-6 {
   display: block;
 }
 
-#checkbox-minus:checked ~ #checkbox-label-plus #plus {
-  display: block;
+/* Styles for Tablets*/
+@media screen and (max-width: 767px) {
+  h3 {
+    font-size: 1.7rem;
+  }
+  .question {
+    font-size: 1.4rem;
+  }
+  #answer-1,
+  #checkbox-arrow-1,
+  #answer-2,
+  #checkbox-arrow-2,
+  #answer-3,
+  #checkbox-arrow-3,
+  #answer-4,
+  #checkbox-arrow-4,
+  #answer-5,
+  #checkbox-arrow-5,
+  #answer-6,
+  #checkbox-arrow-6 {
+    font-size: 1.2rem;
+  }
 }
 
-#checkbox-minus:checked + #checkbox-label-minus #minus {
-  display: none;
+/* Styles for Smartphone*/
+@media screen and (max-width: 575px) {
+  h3 {
+    font-size: 1.5rem;
+  }
+  .question {
+    font-size: 1.2rem;
+  }
+  #answer-1,
+  #checkbox-arrow-1,
+  #answer-2,
+  #checkbox-arrow-2,
+  #answer-3,
+  #checkbox-arrow-3,
+  #answer-4,
+  #checkbox-arrow-4,
+  #answer-5,
+  #checkbox-arrow-5,
+  #answer-6,
+  #checkbox-arrow-6 {
+    font-size: 1rem;
+  }
 }

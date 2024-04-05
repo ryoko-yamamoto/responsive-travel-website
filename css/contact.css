@@ -63,6 +63,16 @@ html {
   grid-area: dropdown;
 }
 
+#FAQ-page {
+  text-align: right;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+#FAQ-page a {
+  color: var(--forth-color);
+}
+
 #message-field {
   grid-area: message;
   justify-self: center;
