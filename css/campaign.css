@@ -1,0 +1,28 @@
+/* Root Variables */
+html {
+  --first-color: black;
+  --second-color: #777;
+  --third-color: #ec282e;
+  --forth-color: #92deeb;
+  --fifth-color: #2855f8;
+  --sixth-color: #f9b21a;
+  --gradient-color: linear-gradient(#face2d, #fe6a0e);
+  --contrast-color: white;
+  --base-font-size: 16px;
+  font-size: var(--base-font-size);
+}
+
+/* Section-6 */
+.carousel-caption p::before {
+  content: "“"; /* 開始クオーテーションマーク */
+  color: red; /* クオーテーションマークの色 */
+  font-size: 3em; /* クオーテーションマークのサイズ */
+  margin-right: 0.5em; /* クオーテーションマークとテキストの間隔 */
+}
+
+.carousel-caption p::after {
+  content: "”"; /* 終了クオーテーションマーク */
+  color: red; /* クオーテーションマークの色 */
+  font-size: 3em; /* クオーテーションマークのサイズ */
+  margin-left: 0.5em; /* クオーテーションマークとテキストの間隔 */
+}
