@@ -31,6 +31,11 @@ header {
   min-height: 80px;
   background-color: var(--forth-color);
   padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 /* Nav Bar on PC/laptop/desktop (default) */
@@ -91,6 +96,7 @@ h1.logo-title {
 /* Main */
 /* Section-1 */
 .section-1 {
+  margin-top: 80px;
   background-image: url(./assets/imgs/empire-state-building.webp);
   width: 100%;
   height: auto;

@@ -130,6 +130,12 @@ input {
   justify-content: center;
 }
 
+.fa-telegram {
+  position: relative;
+  top: 3rem;
+  left: 15rem;
+}
+
 .contact-big {
   font-size: 2rem;
   font-weight: bold;
@@ -159,9 +165,6 @@ input {
     display: flex;
     flex-direction: column-reverse;
     gap: 1rem;
-  }
-
-  .contact-message {
   }
 
   .contact-form {

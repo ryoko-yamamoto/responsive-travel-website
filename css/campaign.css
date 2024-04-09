@@ -13,6 +13,25 @@ html {
 }
 
 /* Section-6 */
+.flexible-image {
+  width: 100%;
+  height: auto; /* アスペクト比を維持するため */
+  max-width: 100%; /* オーバーフロー防止 */
+  object-fit: contain; /* 画像の歪み防止 */
+}
+
+.campaign-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  background-color: var(--contrast-color);
+}
+
+.campaign-big {
+  font-size: 2rem;
+}
+
 .carousel-caption p::before {
   content: "“"; /* 開始クオーテーションマーク */
   color: red; /* クオーテーションマークの色 */
