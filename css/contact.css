@@ -111,14 +111,22 @@ html {
   border-radius: 0.25rem;
 }
 
-.label {
+label[for="company-input"],
+label[for="country-input"],
+label[for="name-input"],
+label[for="email-input"],
+label[for="phone-input"],
+label[for="reason-select"],
+label[for="message-input"] {
   color: var(--contrast-color);
   font-size: 1.2rem;
   display: block;
   width: 100%;
 }
 
-.input {
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
   display: block;
   width: 100%;
   border-radius: 0.25rem;
