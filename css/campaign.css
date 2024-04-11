@@ -14,10 +14,9 @@ html {
 /* Section-6 */
 
 .flexible-image {
-  width: 100%;
-  height: auto; /* アスペクト比を維持するため */
-  max-width: 100%; /* オーバーフロー防止 */
-  object-fit: contain; /* 画像の歪み防止 */
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .campaign-container {

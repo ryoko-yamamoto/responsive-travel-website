@@ -389,8 +389,8 @@ footer ul li a i {
   #nav-menu {
     position: fixed;
     top: 80px;
-    left: -100dvw;
-    width: 100dvw;
+    left: -100vw;
+    width: 100vw;
     height: 100dvh;
     background-color: var(--forth-color);
     text-align: center;

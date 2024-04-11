@@ -21,6 +21,7 @@ h3 {
   margin: 1rem;
   text-align: center;
   font-size: 2rem;
+  transition: all 0.3s;
 }
 
 #FAQ {
@@ -35,7 +36,8 @@ label {
 }
 
 .question {
-  font-size: 1.5rem;
+  font-size: 1.5em;
+  transition: all 0.3s;
 }
 
 #FAQ-1,
@@ -78,6 +80,7 @@ label {
   display: none;
   font-size: 1.3rem;
   color: var(--second-color);
+  transition: all 0.3s;
 }
 
 #FAQ-1:has(#checkbox-arrow-1:checked) #arrow-1,
@@ -112,9 +115,11 @@ label {
 @media screen and (max-width: 767px) {
   h3 {
     font-size: 1.7rem;
+    transition: all 0.3s;
   }
   .question {
-    font-size: 1.4rem;
+    font-size: 1.4em;
+    transition: all 0.3s;
   }
   #answer-1,
   #checkbox-arrow-1,
@@ -129,6 +134,7 @@ label {
   #answer-6,
   #checkbox-arrow-6 {
     font-size: 1.2rem;
+    transition: all 0.3s;
   }
 }
 
@@ -136,9 +142,11 @@ label {
 @media screen and (max-width: 575px) {
   h3 {
     font-size: 1.5rem;
+    transition: all 0.3s;
   }
   .question {
-    font-size: 1.2rem;
+    font-size: 1.2em;
+    transition: all 0.3s;
   }
   #answer-1,
   #checkbox-arrow-1,
@@ -153,5 +161,6 @@ label {
   #answer-6,
   #checkbox-arrow-6 {
     font-size: 1rem;
+    transition: all 0.3s;
   }
 }
