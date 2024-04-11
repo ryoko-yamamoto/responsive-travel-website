@@ -1,15 +1,17 @@
 # My Journey - Responsive Website Project
 
-This is a personal project demonstrating how to build a responsive website for showcasing a company, product, or portfolio. The project highlights the use of semantic HTML5 and custom CSS.
+This is a personal project demonstrating how to build a responsive website for showcasing a company, product, or portfolio. The project highlights the use of semantic HTML5 custom CSS, and CSS library.
 
 ## Overview
 
-The website "My Journey" comprises four web pages and offers a detailed introduction to Ryoko Yamamoto.
+The website "My Journey" is designed to resemble a travel website, consisting of four web pages.
 
-## Credits
+## Reference URLs
 
-- Reference image: Irasutoya
-  https://www.irasutoya.com/
+Bootstrap: [https://getbootstrap.com/]
+Fontawesome: [https://fontawesome.com/]
+Animate.css: [https://animate.style/]
+Unsplash: [https://unsplash.com/]
 
 ## Author
 
