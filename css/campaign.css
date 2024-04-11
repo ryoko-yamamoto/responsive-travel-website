@@ -20,28 +20,85 @@ html {
   object-fit: contain; /* 画像の歪み防止 */
 }
 
+.campaign-container {
+  position: relative;
+}
+
 .campaign-box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   width: 70%;
-  background-color: var(--contrast-color);
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 1rem;
+  position: absolute;
+  bottom: 2rem;
+  right: 1rem;
+  padding: 1rem;
 }
 
 .campaign-big {
   font-size: 2rem;
+  margin-bottom: 0;
 }
 
 .carousel-caption p::before {
   content: "“"; /* 開始クオーテーションマーク */
   color: red; /* クオーテーションマークの色 */
   font-size: 3em; /* クオーテーションマークのサイズ */
-  margin-right: 0.5em; /* クオーテーションマークとテキストの間隔 */
 }
 
 .carousel-caption p::after {
   content: "”"; /* 終了クオーテーションマーク */
   color: red; /* クオーテーションマークの色 */
   font-size: 3em; /* クオーテーションマークのサイズ */
-  margin-left: 0.5em; /* クオーテーションマークとテキストの間隔 */
+}
+
+h5 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 1.3rem;
+}
+
+/* Styles for Tablets*/
+@media screen and (max-width: 767px) {
+  .campaign-big {
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+}
+
+/* Styles for Smartphone*/
+@media screen and (max-width: 575px) {
+  .campaign-big {
+    font-size: 1rem;
+  }
+
+  .campaign-small {
+    font-size: 0.5em;
+  }
+
+  .campaign-box {
+    bottom: 1rem;
+    padding: 0.5rem;
+  }
+
+  h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
 }
