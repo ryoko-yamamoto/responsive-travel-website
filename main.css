@@ -104,6 +104,13 @@ h1.logo-title {
   background-size: cover;
 }
 
+.fa-star {
+  color: var(--sixth-color);
+  position: relative;
+  left: 2rem;
+  top: 4rem;
+}
+
 .home {
   display: flex;
   flex-direction: column;
@@ -294,6 +301,11 @@ footer ul li a i {
     transition: all 0.3s;
   }
 
+  .fa-star {
+    left: 2rem;
+    top: 3rem;
+  }
+
   .home {
     width: 80%;
   }
@@ -408,6 +420,10 @@ footer ul li a i {
 
   #checkbox:checked ~ #nav-menu {
     left: 0;
+  }
+  .fa-star {
+    left: 2rem;
+    top: 2rem;
   }
 
   .home {
