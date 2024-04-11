@@ -8,7 +8,6 @@ html {
   --sixth-color: #f9b21a;
   --contrast-color: white;
   --base-font-size: 16px;
-  font-size: var(--base-font-size);
 }
 
 /* Section4 */
@@ -54,6 +53,7 @@ label {
   border-radius: 1rem;
   padding: 0.8rem;
 }
+
 #arrow-1,
 #arrow-2,
 #arrow-3,

@@ -9,7 +9,6 @@ html {
   --gradient-color: linear-gradient(#face2d, #fe6a0e);
   --contrast-color: white;
   --base-font-size: 16px;
-  font-size: var(--base-font-size);
 }
 
 /* Section-6 */

@@ -8,7 +8,6 @@ html {
   --sixth-color: #f9b21a;
   --contrast-color: white;
   --base-font-size: 16px;
-  font-size: var(--base-font-size);
 }
 
 /* Section-3 */
@@ -16,7 +15,6 @@ html {
 h4 {
   font-size: 2rem;
 }
-
 
 .domestic-area {
   display: flex;
@@ -60,12 +58,12 @@ h4 {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  padding:2rem:
+  padding: 2rem;
 }
 
 .overseas-comment {
   display: flex;
-  width:90%;
+  width: 90%;
 }
 
 .comment-1 {
@@ -87,7 +85,6 @@ h4 {
   overflow-x: scroll;
   gap: 2rem;
   padding: 1rem;
-  
 }
 
 .overseas-tour {
@@ -122,63 +119,58 @@ h4 {
 
 /* Styles for Tablets*/
 @media screen and (max-width: 767px) {
-
-
-    .domestic-area {
-        min-height: 900px;
-      }
-  
-    .domestic-container {
-      grid-template-columns: repeat(2, 1fr);
-    }
-    .overseas-area {
-        min-height: 800px;
-      }
-    .overseas-tour {
-        width: 45%;
-      }
+  .domestic-area {
+    min-height: 900px;
   }
-  
-  /* Styles for Smartphone*/
-  @media screen and (max-width: 575px) {
 
-
-    .domestic-area {
-        min-height: 2000px;
-      }
-
-    .domestic-container {
-      grid-template-columns: 1fr;
-    }
-
-    .overseas-area {
-        min-height: 1000px;
-      }
-    .overseas-container {
-        display: flex;
-        flex-direction: column;
-        overflow-y: scroll;
-        height: 700px;
-      }
-      .overseas-comment {
-        display: flex;
-        flex-direction: column;
-        gap:2rem;
-      }
-
-      .comment-1 {
-        width: 100%;
-        font-size: 1.5rem;
-        text-align: center;
-      }
-      
-      .comment-2 {
-        width: 100%;
-        font-size: 1rem;
-      }
-
-      .overseas-tour{
-        width:100%;
-      }
+  .domestic-container {
+    grid-template-columns: repeat(2, 1fr);
   }
-  
+  .overseas-area {
+    min-height: 800px;
+  }
+  .overseas-tour {
+    width: 45%;
+  }
+}
+
+/* Styles for Smartphone*/
+@media screen and (max-width: 575px) {
+  .domestic-area {
+    min-height: 2000px;
+  }
+
+  .domestic-container {
+    grid-template-columns: 1fr;
+  }
+
+  .overseas-area {
+    min-height: 1000px;
+  }
+  .overseas-container {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 700px;
+  }
+  .overseas-comment {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .comment-1 {
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .comment-2 {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .overseas-tour {
+    width: 100%;
+  }
+}

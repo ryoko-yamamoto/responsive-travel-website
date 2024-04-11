@@ -18,7 +18,6 @@ html {
   --gradient-color: linear-gradient(#face2d, #fe6a0e);
   --contrast-color: white;
   --base-font-size: 16px;
-  font-size: var(--base-font-size);
 }
 
 /* General Styles*/
@@ -223,8 +222,8 @@ h2 {
 .travel-dessert img,
 .travel-group img,
 .travel-night img {
-  max-width: 100%; /* 最大幅を100%に設定 */
-  max-height: 100%; /* 最大高さを100%に設定 */
+  max-width: 100%;
+  max-height: 100%;
   border-radius: 1rem;
   border: 0.25rem solid var(--forth-color);
 }
