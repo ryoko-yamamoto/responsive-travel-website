@@ -108,14 +108,14 @@ html {
   border-radius: 0.25rem;
 }
 
-label {
+.label {
   color: var(--contrast-color);
   font-size: 1.2rem;
   display: block;
   width: 100%;
 }
 
-input {
+.input {
   display: block;
   width: 100%;
   border-radius: 0.25rem;

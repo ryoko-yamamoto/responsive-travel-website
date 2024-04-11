@@ -14,6 +14,7 @@
       href="https://use.fontawesome.com/releases/v6.5.1/css/all.css"
       rel="stylesheet"
     />
+
     <style>
       .custom-duration1 {
         animation-delay: 0.5s;
@@ -46,12 +47,12 @@
         <ul id="nav-menu">
           <li class="menu-item"><a href="../index.html">Home</a></li>
           <li class="menu-item">
-            <a href="./pages/services.html">Services</a>
+            <a href="#" class="active">Services</a>
           </li>
           <li class="menu-item">
             <a href="./campaign.html">Campaign</a>
           </li>
-          <li class="menu-item"><a href="#" class="active">Contact</a></li>
+          <li class="menu-item"><a href="./contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -68,27 +69,49 @@
             </div>
 
             <div id="email-field">
-              <label for="email-input">Email</label>
-              <input type="email" id="email-input" name="email" required />
+              <label class="label" for="email-input">Email</label>
+              <input
+                class="input"
+                type="email"
+                id="email-input"
+                name="email"
+                required
+              />
             </div>
 
             <div id="phone-field">
-              <label for="phone-input">Phone</label>
-              <input type="phone" id="phone-input" name="phone" required />
+              <label class="label" for="phone-input">Phone</label>
+              <input
+                class="input"
+                type="phone"
+                id="phone-input"
+                name="phone"
+                required
+              />
             </div>
 
             <div id="country-field">
-              <label for="country-input">Country</label>
-              <input type="country" id="country-input" name="country" />
+              <label class="label" for="country-input">Country</label>
+              <input
+                class="input"
+                type="country"
+                id="country-input"
+                name="country"
+              />
             </div>
 
             <div id="company-field">
-              <label for="company-input">Company name</label>
-              <input type="company" id="company-input" name="company" />
+              <label class="label" for="company-input">Company name</label>
+              <input
+                class="input"
+                type="company"
+                id="company-input"
+                name="company"
+              />
             </div>
 
             <div id="dropdown-field">
-              <label for="reason-select">Reason</label>
+              <label class="label" for="reason-select">Reason</label>
               <select name="reason" id="reason-select">
                 <option value="reason" selected>
                   --Please choose a reason--
@@ -105,7 +128,7 @@
             </div>
 
             <div id="message-field">
-              <label for="message-input">Message</label>
+              <label class="label" for="message-input">Message</label>
               <textarea
                 name="message"
                 id="message-input"
