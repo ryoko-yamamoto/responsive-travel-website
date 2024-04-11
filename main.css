@@ -255,6 +255,14 @@ footer {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+h6.logo-title {
+  font-size: 2rem;
+  align-self: center;
+  font-weight: bold;
+  color: var(--fifth-color);
+  transition: all 0.3s;
+}
+
 .footer-company {
   display: flex;
   flex-direction: column;
@@ -337,6 +345,10 @@ footer ul li a i {
 
   h2 {
     margin-top: 110px;
+  }
+
+  h6.logo-title {
+    font-size: 1.5rem;
   }
 
   .footer-up {
@@ -457,6 +469,9 @@ footer ul li a i {
 
   h2 {
     margin-top: 100px;
+  }
+  h6.logo-title {
+    font-size: 1.25rem;
   }
 
   .footer-up {
