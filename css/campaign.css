@@ -43,15 +43,15 @@ html {
 }
 
 .carousel-caption p::before {
-  content: "“"; /* 開始クオーテーションマーク */
-  color: red; /* クオーテーションマークの色 */
-  font-size: 3em; /* クオーテーションマークのサイズ */
+  content: "“";
+  color: red;
+  font-size: 3em;
 }
 
 .carousel-caption p::after {
-  content: "”"; /* 終了クオーテーションマーク */
-  color: red; /* クオーテーションマークの色 */
-  font-size: 3em; /* クオーテーションマークのサイズ */
+  content: "”";
+  color: red;
+  font-size: 3em;
 }
 
 h5 {

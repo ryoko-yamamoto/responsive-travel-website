@@ -71,6 +71,10 @@ html {
   color: var(--forth-color);
 }
 
+#FAQ-page p {
+  color: var(--forth-color);
+}
+
 #FAQ-page a:hover {
   border-bottom: solid 0.1rem var(--forth-color);
 }
