@@ -284,6 +284,10 @@ footer {
   gap: 1rem;
 }
 
+footer ul li a i {
+  color: initial;
+}
+
 /* Styles for Tablets*/
 @media screen and (max-width: 767px) {
   h1.logo-title {

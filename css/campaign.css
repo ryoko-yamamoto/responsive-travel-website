@@ -13,6 +13,7 @@ html {
 }
 
 /* Section-6 */
+
 .flexible-image {
   width: 100%;
   height: auto; /* アスペクト比を維持するため */
@@ -60,6 +61,15 @@ h5 {
 
 .carousel-caption p {
   font-size: 1.3rem;
+}
+
+footer,
+.footer-text {
+  line-height: normal;
+}
+
+address {
+  font-style: italic;
 }
 
 /* Styles for Tablets*/

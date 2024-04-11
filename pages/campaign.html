@@ -1,49 +1,215 @@
-<code class="code-multiline"
-  ><!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="utf-8" />
-      <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1, shrink-to-fit=no"
-      />
-      <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-        crossorigin="anonymous"
-      />
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"
-      ></script>
-      <link rel="stylesheet" href="../css/campaign.css" />
-      <link rel="stylesheet" href="../main.css" />
-      <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-      />
-      <link
-        href="https://use.fontawesome.com/releases/v6.5.1/css/all.css"
-        rel="stylesheet"
-      />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
 
-      <style>
-        .custom-duration1 {
-          animation-delay: 0.5s;
-        }
+    <link rel="stylesheet" href="../css/campaign.css" />
+    <link rel="stylesheet" href="../main.css" />
 
-        .custom-duration2 {
-          animation-delay: 1.5s;
-        }
-      </style>
-      <title>Campaign</title>
-    </head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://use.fontawesome.com/releases/v6.5.1/css/all.css"
+      rel="stylesheet"
+    />
+    <style>
+      .custom-duration1 {
+        animation-delay: 0.5s;
+      }
 
-    <body>
-      <header>
-        <nav class="nav-header">
+      .custom-duration2 {
+        animation-delay: 1.5s;
+      }
+    </style>
+    <title>Campaign</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav-header">
+        <div class="logo">
+          <img
+            class="logo-mark"
+            src="../assets/logo/airplane.svg"
+            alt="airplane"
+          />
+          <h1 class="logo-title">My Journey</h1>
+        </div>
+        <input type="checkbox" id="checkbox" />
+        <label for="checkbox" id="checkbox-label">
+          <i id="earth" class="fa-solid fa-earth-asia fa-2x"></i>
+        </label>
+
+        <ul id="nav-menu">
+          <li class="menu-item">
+            <a href="../index.html" class="text-decoration-none">Home</a>
+          </li>
+          <li class="menu-item">
+            <a href="./services.html" class="text-decoration-none">Services</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="active text-decoration-none">Campaign</a>
+          </li>
+          <li class="menu-item">
+            <a href="./contact.html" class="text-decoration-none">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-6">
+        <h2 class="text-dark">Campaign</h2>
+        <div class="campaign-container">
+          <img
+            src="../assets/imgs/sanfrancisco.jpg"
+            class="flexible-image"
+            alt="Flexible Image"
+          />
+          <div class="campaign-box text-dark">
+            <p class="campaign-big">on sale</p>
+            <p class="campaign-big">30~70% OFF</p>
+            <p class="campaign-small">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
+              corrupti saepe at quaerat cupiditate. Vero modi ducimus accusamus
+              excepturi in officia, animi quisquam, eaque voluptate illum odit
+              quas ex aliquam.
+            </p>
+          </div>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <picture>
+                <source
+                  media="(max-width: 575px)"
+                  srcset="../assets/imgs/africa-long.webp"
+                />
+                <img
+                  src="../assets/imgs/africa-big.webp"
+                  class="d-block w-100"
+                  alt="africa"
+                />
+              </picture>
+              <div class="carousel-caption">
+                <h5>#004 Africa</h5>
+                <p>
+                  Lorem ipsum dolor,sit amet consectetur adipisicing elit.
+                  Cupiditate facilis obcaecati consectetur ipsam nihil voluptate
+                  a dipisci labore maiores aliquam rerum dolore illum, quibusdam
+                  cum molestias recusandae alias,voluptates voluptatem! Soluta!
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <picture>
+                <source
+                  media="(max-width: 575px)"
+                  srcset="../assets/imgs/europe-long.webp"
+                />
+                <img
+                  src="../assets/imgs/europe-big.webp"
+                  class="d-block w-100"
+                  alt="europe"
+                />
+              </picture>
+              <div class="carousel-caption">
+                <h5>#003 Europe</h5>
+                <p>
+                  Lorem ipsum dolor,sit amet consectetur adipisicing elit.
+                  Cupiditate facilis obcaecati consectetur ipsam nihil voluptate
+                  a dipisci labore maiores aliquam rerum dolore illum, quibusdam
+                  cum molestias recusandae alias, voluptates voluptatem! Soluta!
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <picture>
+                <source
+                  media="(max-width: 575px)"
+                  srcset="../assets/imgs/oceania-long.webp"
+                />
+                <img
+                  src="../assets/imgs/oceania-big.webp"
+                  class="d-block w-100"
+                  alt="oceania"
+                />
+              </picture>
+              <div class="carousel-caption">
+                <h5>#006 Oceania</h5>
+                <p>
+                  Lorem ipsum dolor,sit amet consectetur adipisicing elit.
+                  Cupiditate facilis obcaecati consectetur ipsam nihil voluptate
+                  a dipisci labore maiores aliquam rerum dolore illum, quibusdam
+                  cum molestias recusandae alias, voluptates voluptatem! Soluta!
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="text-dark">
+      <div class="footer-up">
+        <div class="footer-company">
           <div class="logo">
             <img
               class="logo-mark"
@@ -52,269 +218,84 @@
             />
             <h1 class="logo-title">My Journey</h1>
           </div>
-          <input type="checkbox" id="checkbox" />
-          <label for="checkbox" id="checkbox-label">
-            <i id="earth" class="fa-solid fa-earth-asia fa-2x"></i>
-          </label>
+          <p class="footer-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+            voluptas cupiditate odio necessitatibus voluptates modi ut pariatur
+            perferendis molestias voluptatem at, impedit, ex rem sunt reiciendis
+            suscipit cum obcaecati voluptate?
+          </p>
+        </div>
 
-          <ul id="nav-menu">
-            <li class="menu-item"><a href="../index.html">Home</a></li>
-            <li class="menu-item">
-              <a href="./services.html">Services</a>
+        <div class="footer-container">
+          <div class="address-container">
+            <h3 class="footer-title fw-bold">Address</h3>
+            <address class="footer-text mb-0">
+              889 W Pender St #200, <br />
+              Vancouver, BC V6C 3B2
+            </address>
+          </div>
+          <div class="contact-container">
+            <h3 class="footer-title fw-bold">Contact</h3>
+            <address class="footer-text mb-0">
+              +123 456 7890 <br />
+              myjourney@travel.com
+            </address>
+          </div>
+          <div class="office-container">
+            <h3 class="footer-title fw-bold">Office</h3>
+            <p class="footer-text mb-0">
+              Monday - Friday <br />
+              9:00 - 18:00
+            </p>
+          </div>
+        </div>
+        <div class="map-container">
+          <h3 class="footer-title fw-bold">Map</h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.491817627999!2d-123.11901682490688!3d49.28602587051931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54867182698f0ae5%3A0xa5370d98daf1dbd2!2sTamwood%20Careers%20-%20Vancouver!5e0!3m2!1sja!2sca!4v1711611113352!5m2!1sja!2sca"
+            width="300"
+            height="225"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <br />
+      <hr class="m-0" />
+      <br />
+
+      <div class="footer-down">
+        <nav class="nav-footer">
+          <ul class="mb-0 p-0">
+            <li>
+              <a href="#"><i class="fa-brands fa-linkedin fa-2x"></i></a>
             </li>
-            <li class="menu-item">
-              <a href="#" class="active">Campaign</a>
+
+            <li>
+              <a href="#"><i class="fa-brands fa-square-facebook fa-2x"></i></a>
             </li>
-            <li class="menu-item">
-              <a href="./contact.html">Contact</a>
+
+            <li>
+              <a href="#"
+                ><i class="fa-brands fa-square-x-twitter fa-2x"></i
+              ></a>
+            </li>
+
+            <li>
+              <a href="#"
+                ><i class="fa-brands fa-square-instagram fa-2x"></i
+              ></a>
+            </li>
+
+            <li>
+              <a href="#"><i class="fa-brands fa-square-youtube fa-2x"></i></a>
             </li>
           </ul>
         </nav>
-      </header>
-
-      <main>
-        <section class="section-6">
-          <h2 class="text-dark">Campaign</h2>
-          <div class="campaign-container">
-            <img
-              src="../assets/imgs/sanfrancisco.jpg"
-              class="flexible-image"
-              alt="Flexible Image"
-            />
-            <div class="campaign-box text-dark">
-              <p class="campaign-big">on sale</p>
-              <p class="campaign-big">30~70% OFF</p>
-              <p class="campaign-small">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
-                corrupti saepe at quaerat cupiditate. Vero modi ducimus
-                accusamus excepturi in officia, animi quisquam, eaque voluptate
-                illum odit quas ex aliquam.
-              </p>
-            </div>
-          </div>
-          <div id="carouselExampleIndicators" class="carousel slide">
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <picture>
-                  <source
-                    media="(max-width: 575px)"
-                    srcset="../assets/imgs/africa-long.webp"
-                  />
-                  <img
-                    src="../assets/imgs/africa-big.webp"
-                    class="d-block w-100"
-                    alt="africa"
-                  />
-                </picture>
-                <div class="carousel-caption">
-                  <h5>#004 Africa</h5>
-                  <p>
-                    Lorem ipsum dolor,sit amet consectetur adipisicing elit.
-                    Cupiditate facilis obcaecati consectetur ipsam nihil
-                    voluptate a dipisci labore maiores aliquam rerum dolore
-                    illum, quibusdam cum molestias recusandae alias,voluptates
-                    voluptatem! Soluta!
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <picture>
-                  <source
-                    media="(max-width: 575px)"
-                    srcset="../assets/imgs/europe-long.webp"
-                  />
-                  <img
-                    src="../assets/imgs/europe-big.webp"
-                    class="d-block w-100"
-                    alt="europe"
-                  />
-                </picture>
-                <div class="carousel-caption">
-                  <h5>#003 Europe</h5>
-                  <p>
-                    Lorem ipsum dolor,sit amet consectetur adipisicing elit.
-                    Cupiditate facilis obcaecati consectetur ipsam nihil
-                    voluptate a dipisci labore maiores aliquam rerum dolore
-                    illum, quibusdam cum molestias recusandae alias, voluptates
-                    voluptatem! Soluta!
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <picture>
-                  <source
-                    media="(max-width: 575px)"
-                    srcset="../assets/imgs/oceania-long.webp"
-                  />
-                  <img
-                    src="../assets/imgs/oceania-big.webp"
-                    class="d-block w-100"
-                    alt="oceania"
-                  />
-                </picture>
-                <div class="carousel-caption">
-                  <h5>#006 Oceania</h5>
-                  <p>
-                    Lorem ipsum dolor,sit amet consectetur adipisicing elit.
-                    Cupiditate facilis obcaecati consectetur ipsam nihil
-                    voluptate a dipisci labore maiores aliquam rerum dolore
-                    illum, quibusdam cum molestias recusandae alias, voluptates
-                    voluptatem! Soluta!
-                  </p>
-                </div>
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-
-          <!-- BootstrapのJavascript読み込み -->
-          <script
-            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-            crossorigin="anonymous"
-          ></script>
-        </section>
-      </main>
-      <!-- Footer -->
-      <footer>
-        <div class="footer-up">
-          <div class="footer-company">
-            <div class="logo">
-              <img
-                class="logo-mark"
-                src="../assets/logo/airplane.svg"
-                alt="airplane"
-              />
-              <h1 class="logo-title">My Journey</h1>
-            </div>
-            <p class="footer-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-              voluptas cupiditate odio necessitatibus voluptates modi ut
-              pariatur perferendis molestias voluptatem at, impedit, ex rem sunt
-              reiciendis suscipit cum obcaecati voluptate?
-            </p>
-          </div>
-
-          <div class="footer-container">
-            <div class="address-container">
-              <h3 class="footer-title">Address</h3>
-              <address class="footer-text">
-                889 W Pender St #200, <br />
-                Vancouver, BC V6C 3B2
-              </address>
-            </div>
-            <div class="contact-container">
-              <h3 class="footer-title">Contact</h3>
-              <address class="footer-text">
-                +123 456 7890 <br />
-                myjourney@travel.com
-              </address>
-            </div>
-            <div class="office-container">
-              <h3 class="footer-title">Office</h3>
-              <p class="footer-text">
-                Monday - Friday <br />
-                9:00 - 18:00
-              </p>
-            </div>
-          </div>
-          <div class="map-container">
-            <h3 class="footer-title">Map</h3>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.491817627999!2d-123.11901682490688!3d49.28602587051931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54867182698f0ae5%3A0xa5370d98daf1dbd2!2sTamwood%20Careers%20-%20Vancouver!5e0!3m2!1sja!2sca!4v1711611113352!5m2!1sja!2sca"
-              width="300"
-              height="225"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
-        </div>
-        <br />
-        <hr />
-        <br />
-
-        <div class="footer-down">
-          <nav class="nav-footer">
-            <ul>
-              <li>
-                <a href="#"><i class="fa-brands fa-linkedin fa-2x"></i></a>
-              </li>
-
-              <li>
-                <a href="#"
-                  ><i class="fa-brands fa-square-facebook fa-2x"></i
-                ></a>
-              </li>
-
-              <li>
-                <a href="#"
-                  ><i class="fa-brands fa-square-x-twitter fa-2x"></i
-                ></a>
-              </li>
-
-              <li>
-                <a href="#"
-                  ><i class="fa-brands fa-square-instagram fa-2x"></i
-                ></a>
-              </li>
-
-              <li>
-                <a href="#"
-                  ><i class="fa-brands fa-square-youtube fa-2x"></i
-                ></a>
-              </li>
-            </ul>
-          </nav>
-          <p>&copy; 2024 My Journey</p>
-        </div>
-      </footer>
-    </body>
-  </html>
-</code>
+        <p class="mb-0">&copy; 2024 My Journey</p>
+      </div>
+    </footer>
+  </body>
+</html>
