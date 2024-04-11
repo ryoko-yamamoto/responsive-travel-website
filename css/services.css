@@ -13,7 +13,6 @@ html {
 
 /* Section-3 */
 
-
 h4 {
   font-size: 2rem;
 }
@@ -124,6 +123,7 @@ h4 {
 /* Styles for Tablets*/
 @media screen and (max-width: 767px) {
 
+
     .domestic-area {
         min-height: 900px;
       }
@@ -141,6 +141,7 @@ h4 {
   
   /* Styles for Smartphone*/
   @media screen and (max-width: 575px) {
+
 
     .domestic-area {
         min-height: 2000px;

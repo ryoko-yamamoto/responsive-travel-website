@@ -179,6 +179,7 @@ h2 {
   font-size: 3rem;
   font-weight: bold;
   margin: 1rem;
+  margin-top: 120px;
 }
 
 .about-container p {
@@ -316,6 +317,10 @@ footer {
     width: 90%;
   }
 
+  h2 {
+    margin-top: 110px;
+  }
+
   .footer-up {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -422,6 +427,10 @@ footer {
 
   #about2-5 {
     width: 90%;
+  }
+
+  h2 {
+    margin-top: 100px;
   }
 
   .footer-up {
