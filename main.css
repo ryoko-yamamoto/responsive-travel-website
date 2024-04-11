@@ -105,7 +105,10 @@ h1.logo-title {
 }
 
 .fa-star {
-  color: var(--sixth-color);
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   position: relative;
   left: 2rem;
   top: 4rem;
