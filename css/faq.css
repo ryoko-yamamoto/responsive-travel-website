@@ -10,8 +10,7 @@ html {
   --base-font-size: 16px;
 }
 
-/* Section4 */
-
+/* Section-6 */
 #FAQ-container {
   display: flex;
   flex-direction: column;
@@ -113,6 +112,7 @@ label {
 
 /* Styles for Tablets*/
 @media screen and (max-width: 767px) {
+  /* Section-6 */
   h3 {
     font-size: 1.7rem;
     transition: all 0.3s;
@@ -140,6 +140,7 @@ label {
 
 /* Styles for Smartphone*/
 @media screen and (max-width: 575px) {
+  /* Section-6 */
   h3 {
     font-size: 1.5rem;
     transition: all 0.3s;

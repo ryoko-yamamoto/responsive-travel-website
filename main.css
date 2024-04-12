@@ -303,6 +303,7 @@ footer ul li a i {
 
 /* Styles for Tablets*/
 @media screen and (max-width: 767px) {
+  /* Header */
   h1.logo-title {
     font-size: 1.5rem;
   }
@@ -311,7 +312,7 @@ footer ul li a i {
     font-size: 0.8rem;
     transition: all 0.3s;
   }
-
+  /* Section-1 */
   .fa-star {
     left: 2rem;
     top: 3rem;
@@ -329,6 +330,7 @@ footer ul li a i {
     font-size: 0.9rem;
   }
 
+  /* Section-2 */
   .about {
     display: flex;
     flex-direction: column;
@@ -347,6 +349,7 @@ footer ul li a i {
     margin-top: 110px;
   }
 
+  /* Footer */
   h6.logo-title {
     font-size: 1.5rem;
   }
@@ -376,6 +379,7 @@ footer ul li a i {
 
 /* Styles for Smartphone*/
 @media screen and (max-width: 575px) {
+  /* Header */
   h1.logo-title {
     font-size: 1.25rem;
   }
@@ -436,6 +440,8 @@ footer ul li a i {
   #checkbox:checked ~ #nav-menu {
     left: 0;
   }
+
+  /* Section-1 */
   .fa-star {
     left: 2rem;
     top: 2rem;
@@ -453,6 +459,7 @@ footer ul li a i {
     font-size: 0.7rem;
   }
 
+  /* Section-2 */
   .about {
     display: flex;
     flex-direction: column;
@@ -470,6 +477,8 @@ footer ul li a i {
   h2 {
     margin-top: 100px;
   }
+
+  /* Footer */
   h6.logo-title {
     font-size: 1.25rem;
   }

@@ -11,8 +11,7 @@ html {
   --base-font-size: 16px;
 }
 
-/* Section-6 */
-
+/* Section-4 */
 .flexible-image {
   height: auto;
   max-width: 100%;
@@ -61,6 +60,7 @@ h5 {
   font-size: 1.3rem;
 }
 
+/* Footer (to fix Bootstrap)*/
 footer,
 .footer-text {
   line-height: normal;
@@ -72,6 +72,7 @@ address {
 
 /* Styles for Tablets*/
 @media screen and (max-width: 767px) {
+  /* Section-4 */
   .campaign-big {
     font-size: 1.5rem;
   }
@@ -88,6 +89,7 @@ address {
 
 /* Styles for Smartphone*/
 @media screen and (max-width: 575px) {
+  /* Section-4 */
   .campaign-big {
     font-size: 1rem;
   }

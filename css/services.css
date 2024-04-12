@@ -11,7 +11,6 @@ html {
 }
 
 /* Section-3 */
-
 h4 {
   font-size: 2rem;
 }
@@ -119,6 +118,7 @@ h4 {
 
 /* Styles for Tablets*/
 @media screen and (max-width: 767px) {
+  /* Section-3 */
   .domestic-area {
     min-height: 900px;
   }
@@ -126,9 +126,11 @@ h4 {
   .domestic-container {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .overseas-area {
     min-height: 800px;
   }
+
   .overseas-tour {
     width: 45%;
   }
@@ -136,6 +138,7 @@ h4 {
 
 /* Styles for Smartphone*/
 @media screen and (max-width: 575px) {
+  /* Section-3 */
   .domestic-area {
     min-height: 2000px;
   }
@@ -147,12 +150,14 @@ h4 {
   .overseas-area {
     min-height: 1000px;
   }
+
   .overseas-container {
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
     height: 700px;
   }
+
   .overseas-comment {
     display: flex;
     flex-direction: column;
